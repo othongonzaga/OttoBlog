@@ -63,7 +63,7 @@ const Register = () => {
             </label>
             <label htmlFor="">
                 <span>Confimarção de senha:</span>
-                <input type="password" name="ConfirmpPassword" id="" required placeholder="Email do usuário" value={confirmPassword}
+                <input type="password" name="ConfirmpPassword" id="" required placeholder="Insira novamente a senha" value={confirmPassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}/>
             </label>
 
